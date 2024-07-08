@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Plug</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 1rem;
+            text-decoration: none;
+            text-align: center;
+        }
+        section {
+            padding: 2rem;
+            margin: 1rem;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        form input, form textarea {
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Electric Plug</h1>
+        <p>Global Media and Event Production Company</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#media">Media</a>
+        <a href="#events">Upcoming Events</a>
+        <a href="#vendor-apply">Vendor Application</a>
+        <a href="#artist-apply">Artist Application</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Electric Plug is a growing media and event production company. We focus primarily on throwing a good party by providing a safe space for artists of all varieties (music, installation, and other mediums) to practice and show off their unique talents.</p>
+    </section>
+    <section id="media">
+        <h2>Media of Previous Shows</h2>
+        <div>
+            <h3>Audio Sets</h3>
+            <audio controls>
+                <source src="path-to-your-audio-file.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div>
+            <h3>Videos</h3>
+            <video controls width="320">
+                <source src="path-to-your-video-file.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+        </div>
+    </section>
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <p>Check back soon for our exciting upcoming events!</p>
+    </section>
+    <section id="vendor-apply">
+        <h2>Vendor Application</h2>
+        <form>
+            <label for="vendor-name">Name:</label>
+            <input type="text" id="vendor-name" name="vendor-name">
+            <label for="vendor-email">Email:</label>
+            <input type="email" id="vendor-email" name="vendor-email">
+            <label for="vendor-message">Message:</label>
+            <textarea id="vendor-message" name="vendor-message"></textarea>
+            <button type="submit">Apply</button>
+        </form>
+    </section>
+    <section id="artist-apply">
+        <h2>Artist Application</h2>
+        <form>
+            <label for="artist-name">Name:</label>
+            <input type="text" id="artist-name" name="artist-name">
+            <label for="artist-email">Email:</label>
+            <input type="email" id="artist-email" name="artist-email">
+            <label for="artist-message">Message:</label>
+            <textarea id="artist-message" name="artist-message"></textarea>
+            <button type="submit">Apply</button>
+        </form>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Text us at 833-229-8443 for information about our parties and what's going on in the area.</p>
+        <form>
+            <label for="contact-name">Name:</label>
+            <input type="text" id="contact-name" name="contact-name">
+            <label for="contact-email">Email:</label>
+            <input type="email" id="contact-email" name="contact-email">
+            <button type="submit">Sign Up for Text Line</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Electric Plug. All rights reserved.</p>
+    </footer>
+</body>
+</html>
